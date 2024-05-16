@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body{
+  background-size: cover;
+}
+
+.navbar{
+  z-index: 1;
+  height: 80px;
+  width: auto;
+  background-image: linear-gradient(to top, #A244CE, #DB29D4);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+
+}
+
+.header{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+.my-button {
+  background-color: #7605BB;
+  color: white;
+  height: 42px;
+  width: 352px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+.my-button:hover{
+  background: #bbb;
+}
+
+p{
+  font-size: 32px;
+  font-weight: normal;
+  font-family: poppins;
+}
+
+.button{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+
+.image1{
+  text-align: center;
+  margin-top: 42px;
+  margin-left: 200px;
+}
+
+.sidenav {
+  height: 1054px;
+  width: 195px;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: #F7F7F7;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: poppins;
+  line-height: 50px;
+  color: #0E0C0C;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #DB29D4;
+}
+
+
+.wrap{
+  max-width: 1127px;
+  margin: auto;
+  padding: 20px;
+  background: #FFFFFF;
+  margin-top: 100px;
+  border-radius: 32px;
+  border: #7605BB;
+  border-style: solid;
+
+}
+
+form{
+  margin-top: 50px;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-family: poppins;
+  font-weight: bolder;
+  text-align: center;
+  color: #000000;
+}
+
+input[type=submit]{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: poppins;
+  height: 49px;
+  width: 179px;
+  margin-top: 10px;
+  margin-left: 360px;
+  color: #fff;
+  font-weight: bold;
+  background: #8B24CA;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background: gray;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background:rgba(0,0,0,0.7);
+}
+
+.closebtn{
+  position: absolute;
+  top: 50px;
+  right: 45px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.closebtn:hover{
+  color: #ccc;
+}
+
+.w3review{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: poppins;
+  color: #000000;
+}
+
+
+.label{
+font-size: 20px;
+font-weight: lighter;
+font-family: poppins;
+color: #000000;
+}
+
+
+
+
+
+
+
+
+
+  

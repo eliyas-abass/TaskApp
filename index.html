@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="index.css">
+    <title>Get Started</title>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="header">
+      <h1>Todo List</h1>
+      <div>
+        <div class="sidenav">
+          <a href="#">Home</a>
+          <a href="#" >Categories</a>
+        </div>
+
+    </div>
+
+  </nav>
+
+<div class="image1">
+  <img src="images/Todopic-1.png" width="365px" height="324px">
+</div>
+
+  <div class="button">
+    <p>Get Started</p>
+    <button class="my-button" onclick="openform()">Click To Add Task</button>
+  </div>
+
+<div id="myoverlay" class="overlay">
+<div class="wrap">
+<h2>Add Task</h2>
+<form>
+  <span class="closebtn" onclick="closeform()" title="close overlay"> &#215 </span>
+  <label class="label">Task title</label>
+  <input type="text" placeholder="">
+  <label class="label">Category</label>
+  <input list="browsers" name="myBrowser"/>
+<datalist id="browsers">
+  <option value="Meetings">
+  <option value="Work">
+  <option value="Assignments">
+  <option value="Others">
+</datalist>
+<label class="label">Details</label>
+<br>
+  <textarea id="w3review" name="w3review" rows="5" cols="79" ></textarea>
+<br>
+  <label class="label">Due date / time</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+  <br>
+  <input type="submit" value="Add Task">
+</form>
+</div>
+</div>
+  
+<script>
+  function openform(){
+    document.getElementById("myoverlay").style.display ="block";
+  }
+  function closeform(){
+    document.getElementById("myoverlay").style.display ="none";
+  }
+</script>
+</body>
+</html>
